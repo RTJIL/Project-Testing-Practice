@@ -5,17 +5,17 @@ This project is a collection of basic JavaScript functions, built to test your s
 ## 🚀 What’s Inside
 You’ll implement and test the following:
 
-✅ capitalize(string)
+### ✅ capitalize(string)
 Purpose: Returns the input string with the first character capitalized.
 
 capitalize('hello') ➡️ 'Hello'
 
-🔄 reverseString(string)
+### 🔄 reverseString(string)
 Purpose: Returns the reversed version of the input string.
 
 reverseString('hello') ➡️ 'olleh'
 
-➕➖ calculator Object
+### ➕➖ calculator Object
 Purpose: Provides basic math operations as methods.
 
 const calculator = {
@@ -28,7 +28,7 @@ Example:
 
 calculator.multiply(3, 4) ➡️ 12
 
-🔐 caesarCipher(string, shift)
+### 🔐 caesarCipher(string, shift)
 Purpose: Applies a Caesar Cipher to the input string with the given shift value.
 
 Shifts only alphabet letters.

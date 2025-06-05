@@ -1,0 +1,30 @@
+{
+  "name": "project-testing-practice",
+  "version": "1.0.0",
+  "description": "This project is a collection of basic JavaScript functions, built to test your skills with TDD (Test Driven Development) using your favorite testing framework (like Jest). You'll write tests first, then make the code pass. Yup, it's one of those challenges.",
+  "main": "analyzeArray.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RTJIL/Project-Testing-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RTJIL/Project-Testing-Practice/issues"
+  },
+  "homepage": "https://github.com/RTJIL/Project-Testing-Practice#readme",
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "babel-jest": "^30.0.0-beta.3",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.14"
+  }
+}
